@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 03</title>
+</head>
+<body>
+    <script>
+        /*
+          Declaração de variável.
+          Comandos de saída.
+          Template string.
+        */
+       var nome = prompt("Informe o nome:");
+       
+       document.write(`Olá, ${nome}!`);
+       alert(`Olá, ${nome}!`);
+       console.log(`Olá, ${nome}!`);
+    </script>
+</body>
+</html>
