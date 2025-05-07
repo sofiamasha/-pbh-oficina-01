@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 03</title>
+    <style>
+        * {
+            font-size: 16px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container{
+            border: 1px solid #bfbdbd;
+            width: 10rem;
+            height: 10rem;
+            margin: 1rem auto;
+            padding: 1rem;
+            box-shadow: .5rem .5rem .5rem .01rem #bfbdbd;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <script>
+            var nome = prompt("Informe o nome:");
+
+            document.write(`Olá, ${nome}!`);
+            alert(`Olá, ${nome}!`);
+            console.log(`Olá, ${nome}!`);
+        </script>
+    </div>
+</body>
+
+</html>
